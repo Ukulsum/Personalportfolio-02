@@ -384,29 +384,219 @@ footer p:nth-child(2){
     margin: 50px auto;
     background-color: #fff;
     border: 1px solid #cdcdcd;
-    padding: 10px;
+    padding: 20px;
     border-radius: 20px;
+    -o-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -moz-border-radius: 20px;
 }
 .skill-Bar{
     width: 90%;
     height: 50px;
     position: relative;
     background: rgba(17, 17, 17, 0.3);
+    border-radius: 50px;
     margin: 20px auto;
 }
+/*----------- HTML --------------*/
 .skill-HTML{
     width: 100%;
-    height: 50px;
+     height: 50px; 
     animation: Animate-HTML 4s;
+    -webkit-animation: Animate-HTML 4s;
+    -moz-animation: Animate-HTML 4s;
+    -o-animation: Animate-HTML 4s;
     position: absolute;
-    background-color: rgb(35, 6, 41);
+    background-color: #F06292;
+    border-radius: 50px;
 }
 /* animation */
-@keyframes Animate-HTML{
+/* @keyframes Animate-HTML{
     form{
         width: 10px;
     }
     to{
         width: 100%;
     }
+}
+@-webkit-keyframes Animate-HTML{
+    form{
+        width: 10px;
+    }
+    to{
+        width: 100%;
+    }
+}
+@-moz-keyframes Animate-HTML{
+    form{
+        width: 10px;
+    }
+    to{
+        width: 100%;
+    }
+}
+@-o-keyframes Animate-HTML{
+    form{
+        width: 10px;
+    }
+    to{
+        width: 100%;
+    }
+} */
+/*-------------- CSS ----------------*/
+.skill-CSS{
+    width: 80%;
+    height: 50px; 
+    animation: Animate-CSS 5s;
+    -webkit-animation: Animate-CSS 5s;
+    -moz-animation: Animate-CSS 5s;
+    -o-animation: Animate-CSS 5s;
+    position: absolute;
+    background-color: #917ee7;
+    border-radius: 50px;
+}
+/* animation */
+/* @keyframes Animate-CSS{
+    form{
+        width: 10px;
+    }
+    to{
+        width: 80%;
+    }
+}
+@-webkit-keyframes Animate-HTML{
+    form{
+        width: 10px;
+    }
+    to{
+        width: 80%;
+    }
+}
+@-moz-keyframes Animate-HTML{
+    form{
+        width: 10px;
+    }
+    to{
+        width: 80%;
+    }
+}
+@-o-keyframes Animate-HTML{
+    form{
+        width: 10px;
+    }
+    to{
+        width: 80%;
+    }
+} */
+/*--------- BootStrap ----------------------*/
+.skill-BootStrap{
+    width: 72%;
+     height: 50px; 
+    animation: Animate-BootStrap 5s;
+    -webkit-animation: Animate-BootStrap 5s;
+    -moz-animation: Animate-BootStrap 5s;
+    -o-animation: Animate-BootStrap 5s;
+    position: absolute;
+    background-color: #7fe6dd;
+    border-radius: 50px;
+}
+/* animation
+@keyframes Animate-BootStrap{
+    form{
+        width: 10px;
+    }
+    to{
+        width: 72%;
+    }
+}
+@-webkit-keyframes Animate-BootStrap{
+    form{
+        width: 10px;
+    }
+    to{
+        width: 72%;
+    }
+}
+@-moz-keyframes Animate-BootStrap{
+    form{
+        width: 10px;
+    }
+    to{
+        width: 72%;
+    }
+}
+@-o-keyframes Animate-BootStrap{
+    form{
+        width: 10px;
+    }
+    to{
+        width: 72%;
+    }
+} */
+/*------------ JQuery --------------------*/
+.skill-JQuery{
+    width: 52%;
+     height: 50px; 
+    animation: Animate-JQuery 4s;
+    -webkit-animation: Animate-JQuery 4s;
+    -moz-animation: Animate-JQuery 4s;
+    -o-animation: Animate-JQuery 4s;
+    position: absolute;
+    background-color: #96e668;
+    border-radius: 50px;
+}
+/* @keyframes Animate-JQuery{
+    to{
+        width: 10px;
+    }
+    form{
+        width: 72%;
+    }
+} */
+/*------------------ JavaScript ---------------------*/
+.skill-JavaScript{
+    width: 68%;
+     height: 50px; 
+    animation: Animate-JavaScript 4s;
+    -webkit-animation: Animate-JavaScript 4s;
+    -moz-animation: Animate-JavaScript 4s;
+    -o-animation: Animate-JavaScript 4s;
+    position: absolute;
+    background-color: #dad268;
+    border-radius: 50px;
+}
+/*---------------- PHP ---------------------*/
+.skill-PHP{
+    width: 40%;
+     height: 50px; 
+    animation: Animate-PHP 4s;
+    -webkit-animation: Animate-PHP 4s;
+    -moz-animation: Animate-PHP 4s;
+    -o-animation: Animate-PHP 4s;
+    position: absolute;
+    background-color: #f89d9d;
+    border-radius: 50px;
+}
+/*----------------- Skill-Area -------------------------*/
+.Skill-Area{
+    z-index: 1;
+    float: left;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 15px;
+    text-shadow: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #fff;
+    font-size: 18px;
+}
+.Percent-Text{
+   z-index: 3;
+   position: relative;
+   padding-right: 15px;
+   margin-top: 15px;
+   float: right;
+   text-shadow: none;
+   color: #fff;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
 }
